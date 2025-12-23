@@ -42,43 +42,7 @@ The app supports **Admin** and **Driver** roles with parking zone, slot, and boo
 - SQLAlchemy
 - SQLite
 - JWT Authentication
-- Uvicorn
-
----
-
-## 📂 Project Structure
-parking-spot-finder/
-│
-├── parking-backend/
-│ ├── app/
-│ │ ├── auth.py
-│ │ ├── database.py
-│ │ ├── deps.py
-│ │ ├── main.py
-│ │ ├── models.py
-│ │ ├── parking.py
-│ │ ├── schemas.py
-│ │ └── utils.py
-│ ├── parking.db
-│ ├── requirements.txt
-│ └── venv/
-│
-├── parking-frontend/
-│ ├── app/
-│ │ ├── (auth)/
-│ │ ├── (admin)/
-│ │ ├── (driver)/
-│ │ └── _layout.tsx
-│ ├── components/
-│ ├── contexts/
-│ ├── constants/
-│ ├── hooks/
-│ └── assets/
-│
-└── README.md
-
-
----
+- Uvicorn│
 
 ## ⚙️ Backend Setup (FastAPI)
 
